@@ -5,10 +5,13 @@
 // output: success
 //
 // foo(bar();
-// output: (
+// output: 4
 //
 // {}({}; 
-// output: (
+// output: 3
+//
+// {}(){}(; 
+// output: 7
 
 
 #include <iostream>
